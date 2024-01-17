@@ -12,8 +12,8 @@ namespace SMManagement.Forms
 {
     public partial class UserPanel : Form
     {
-        private Login login;
-        public UserPanel(Login login)
+        private Form login;
+        public UserPanel(Form login)
         {
             InitializeComponent();
             this.login = login;
